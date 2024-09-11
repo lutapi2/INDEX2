@@ -1,0 +1,92 @@
+<html></html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+        }
+  </style>
+ </head>
+ <body class="flex justify-center items-center h-screen bg-gray-100">
+  <div class="bg-white p-8 rounded shadow-md w-96">
+   <div class="flex items-center mb-4">
+    <img alt="Employee Icon" class="mr-2" height="50" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-RcpoXHkzChYnDbFAyeQ8tamr/user-ehrvabJ3DufsCu8YJ7PqY5gl/img-zRqE1IzSwOy9nxhoiW7t3hos.png?st=2024-09-11T02%3A04%3A37Z&amp;se=2024-09-11T04%3A04%3A37Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-10T23%3A02%3A51Z&amp;ske=2024-09-11T23%3A02%3A51Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=0ccfNU8Emaet37/v34%2BRx/R8%2BpjwcUme%2BiIO7bCEay8%3D" width="50"/>
+    <h1 class="text-2xl font-bold text-red-600">
+     Employee Registration Form
+    </h1>
+   </div>
+   <form>
+    <div class="mb-4">
+     <label class="mr-4">
+      <input class="mr-1" name="title" type="radio" value="mr"/>
+      Mr.
+     </label>
+     <label class="mr-4">
+      <input class="mr-1" name="title" type="radio" value="mrs"/>
+      Mrs.
+     </label>
+     <label>
+      <input class="mr-1" name="title" type="radio" value="ms"/>
+      Ms.
+     </label>
+    </div>
+    <div class="grid grid-cols-2 gap-4 mb-4">
+     <div>
+      <label class="block mb-1">
+       First Name
+      </label>
+      <input class="w-full border border-gray-300 p-2 rounded" placeholder="First Name" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-1">
+       Last Name
+      </label>
+      <input class="w-full border border-gray-300 p-2 rounded" placeholder="Last Name" type="text"/>
+     </div>
+    </div>
+    <div class="mb-4">
+     <label class="block mb-1">
+      Mail
+     </label>
+     <input class="w-full border border-gray-300 p-2 rounded" placeholder="Mail" type="email"/>
+    </div>
+    <div class="mb-4">
+     <label class="block mb-1">
+      Address
+     </label>
+     <input class="w-full border border-gray-300 p-2 rounded" placeholder="Address" type="text"/>
+    </div>
+    <div class="mb-4">
+     <label class="block mb-1">
+      City
+     </label>
+     <input class="w-full border border-gray-300 p-2 rounded" placeholder="City" type="text"/>
+    </div>
+    <div class="mb-4">
+     <label class="block mb-1">
+      State
+     </label>
+     <select class="w-full border border-gray-300 p-2 rounded">
+      <option>
+       Gujarat
+      </option>
+     </select>
+    </div>
+    <div class="mb-4">
+     <label class="block mb-1">
+      Zip
+     </label>
+     <input class="w-full border border-gray-300 p-2 rounded" placeholder="Zip" type="text"/>
+    </div>
+    <div class="mb-4">
+     <label class="block mb-1">
+      Upload Photo
+     </label>
+     <input class="w-full border border-gray-300 p-2 rounded" type="file"/>
+    </div>
+   </form>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,64 @@
+<html></html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-8">
+    <div class="border-b pb-4 mb-4">
+        <h2 class="font-bold mb-2">Your details</h2>
+        <div class="mb-2">
+            <label class="block">1. Name</label>
+            <input type="text" placeholder="First and last name" class="border p-1 w-full">
+        </div>
+        <div class="mb-2">
+            <label class="block">2. Email</label>
+            <input type="email" placeholder="example@domain.com" class="border p-1 w-full">
+        </div>
+        <div class="mb-2">
+            <label class="block">3. Phone</label>
+            <input type="tel" placeholder="Eg. +447500000000" class="border p-1 w-full">
+        </div>
+    </div>
+
+    <div class="border-b pb-4 mb-4">
+        <h2 class="font-bold mb-2">Delivery address</h2>
+        <div class="mb-2">
+            <label class="block">1. Address</label>
+            <textarea class="border p-1 w-full"></textarea>
+        </div>
+        <div class="mb-2">
+            <label class="block">2. Post code</label>
+            <input type="text" class="border p-1 w-full">
+        </div>
+        <div class="mb-2">
+            <label class="block">3. Country</label>
+            <input type="text" class="border p-1 w-full">
+        </div>
+    </div>
+
+    <div class="border-b pb-4 mb-4">
+        <h2 class="font-bold mb-2">Card details</h2>
+        <div class="mb-2">
+            <label class="block">1. Card type</label>
+            <div class="ml-4">
+                <label class="block"><input type="radio" name="card_type"> VISA</label>
+                <label class="block"><input type="radio" name="card_type"> AmEx</label>
+                <label class="block"><input type="radio" name="card_type"> Mastercard</label>
+            </div>
+        </div>
+        <div class="mb-2">
+            <label class="block">2. Card number</label>
+            <input type="text" class="border p-1 w-full">
+        </div>
+        <div class="mb-2">
+            <label class="block">3. Security code</label>
+            <input type="text" class="border p-1 w-full">
+        </div>
+        <div class="mb-2">
+            <label class="block">4. Name on card</label>
+            <input type="text" placeholder="Exact name as on the card" class="border p-1 w-full">
+        </div>
+    </div>
+
+    <button class="border p-2">Buy it!</button>
+</body>
+</html>
